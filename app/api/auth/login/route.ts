@@ -1,10 +1,11 @@
 import bcrypt from "bcrypt";
 import { NextResponse } from "next/server";
 import { signToken } from "@/lib/auth";
-import { prisma } from "@/lib/prisma";
+import { getPrismaClient } from "@/lib/prisma";
 
 export async function POST(request: Request) {
   try {
+    const prisma = getPrismaClient();
     const { email, password } = await request.json();
 
     if (!email || !password) {

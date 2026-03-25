@@ -2,7 +2,7 @@ import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import DashboardActions from "./DashboardActions";
 import { verifyToken } from "@/lib/auth";
-import { prisma } from "@/lib/prisma";
+import { getPrismaClient } from "@/lib/prisma";
 
 export default async function DashboardPage() {
   const cookieStore = await cookies();
@@ -19,6 +19,7 @@ export default async function DashboardPage() {
     redirect("/login");
   }
 
+  const prisma = getPrismaClient();
   const workouts = await prisma.workout.findMany({
     where: { userId: session.id },
     orderBy: { performedAt: "desc" },
