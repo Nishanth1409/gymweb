@@ -93,7 +93,7 @@ export default async function DashboardPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  {workouts.map((workout) => (
+                  {workouts.map((workout: (typeof workouts)[number]) => (
                     <tr key={workout.id} className="border-t border-white/10">
                       <td className="py-3">{workout.type}</td>
                       <td className="py-3">{workout.duration} min</td>
