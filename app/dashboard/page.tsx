@@ -25,8 +25,15 @@ export default async function DashboardPage() {
     take: 6,
   });
 
-  const totals = workouts.reduce(
-    (acc, workout) => {
+  type WorkoutTotals = {
+    calories: number;
+    duration: number;
+    heartRateTotal: number;
+    heartRateCount: number;
+  };
+
+  const totals = workouts.reduce<WorkoutTotals>(
+    (acc: WorkoutTotals, workout: (typeof workouts)[number]) => {
       acc.calories += workout.calories;
       acc.duration += workout.duration;
       if (workout.heartRate) {
