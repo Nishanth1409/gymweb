@@ -103,10 +103,21 @@ Open **http://localhost:3000**.
 
 ---
 
+## Live & credits
+
+| | |
+| :--- | :--- |
+| **Live** | [gymweb-sand.vercel.app](https://gymweb-sand.vercel.app/) |
+| **Author** | [Nishanth K R](https://github.com/Nishanth1409) |
+| **Portfolio** | [nkrportfolio.vercel.app](https://nkrportfolio.vercel.app) |
+
+---
+
 <div align="center">
 
-Made with care by **Nishanth K R** — *son of a farmer, always a farmer.*
+*Son of a farmer · always a farmer.*
 
-[Portfolio](https://nkrportfolio.vercel.app) · [GitHub](https://github.com/Nishanth1409) · [Live](https://gymweb-sand.vercel.app/)
+[GitHub](https://github.com/Nishanth1409) · [Portfolio](https://nkrportfolio.vercel.app)
 
 </div>
+
