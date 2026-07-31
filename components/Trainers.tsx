@@ -14,7 +14,7 @@ const trainers = [
     name: "Aiden Cole",
     role: "Conditioning Specialist",
     image:
-      "https://images.unsplash.com/photo-1556157382-97eda2f9e2bf?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=800&q=80",
   },
   {
     name: "Sofia Ray",

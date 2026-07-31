@@ -17,7 +17,7 @@ const cards = [
   {
     title: "Core Focus",
     image:
-      "https://images.unsplash.com/photo-1594737625785-cf1d06a47d53?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1532029837206-abbe2b7620e3?auto=format&fit=crop&w=900&q=80",
   },
   {
     title: "Mobility Flow",
